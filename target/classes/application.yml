@@ -31,3 +31,9 @@ zuul:
     animal:
       path: /**
       serviceId: animals-ms
+    specy:
+      path: /**
+      serviceId: species-ms
+    breed:
+      path: /**
+      serviceId: breeds-ms
