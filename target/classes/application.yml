@@ -4,7 +4,7 @@ server:
 #Spring Application Name
 spring:
   application:
-    name: Zuul-Server
+    name: zuul-server
 
 config:
   saludo: Configuración Zuul Server en Config Server
@@ -37,3 +37,9 @@ zuul:
     breed:
       path: /**
       serviceId: breeds-ms
+    client:
+      path: /**
+      serviceId: clients-ms
+    sale:
+      path: /**
+      serviceId: sales-ms
